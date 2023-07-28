@@ -1,0 +1,22 @@
+{
+  "name": "esbuildswcts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@swc/core": "^1.3.70",
+    "@swc/helpers": "^0.5.1",
+    "esbuild": "^0.18.16",
+    "node": "^20.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.4"
+  }
+}

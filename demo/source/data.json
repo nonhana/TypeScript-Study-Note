@@ -1,0 +1,8 @@
+{
+  "result_code": 200,
+  "data": {
+    "user_id": 0,
+    "user_name": "non_hana",
+    "user_age": 18
+  }
+}

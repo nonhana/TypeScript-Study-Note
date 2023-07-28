@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>自定义ts插件</title>
+  </head>
+  <body>
+    <script type="module">
+      // 在这个页面中测试插件能否正常工作
+      import { Storage } from "./dist/index.js";
+      const ls = new Storage();
+      ls.set("non_hana", 123123, new Date().getTime() + 5000);
+      setInterval(() => {
+        console.log(ls.get("non_hana"));
+      }, 500);
+    </script>
+  </body>
+</html>
