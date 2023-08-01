@@ -1,0 +1,11 @@
+demo/node_modules
+
+esbuild+swcTS/node_modules
+
+plugin-demo/node_modules
+
+publishingSubscriptionModel/node_modules
+
+rollupTS/node_modules
+
+webpackTS/node_modules
