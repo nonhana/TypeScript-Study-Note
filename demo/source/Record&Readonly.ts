@@ -15,7 +15,7 @@ namespace RecordAndReadonly {
 
   // Record
   // K extends keyof any的作用是让K的类型变为string | number | symbol
-  // Record的作用是把K的所有属性变为T类型
+  // Record的作用是定义一个对象的类型，这个对象的键名的类型为K，键值的类型为T
   type Record<K extends keyof any, T> = {
     [P in K]: T;
   };
@@ -24,6 +24,6 @@ namespace RecordAndReadonly {
   let obj: B = {
     A: { name: "A", age: 1 },
     B: { name: "B", age: 2 },
-    C: { name: "C", age: 3 },
+    C: { name: "C", age: 311233 },
   };
 }

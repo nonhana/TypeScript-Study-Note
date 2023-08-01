@@ -9,7 +9,7 @@
     // "disableSolutionSearching": true,                 /* 在编辑时允许项目退出多项目引用检查。 */
     // "disableReferencedProjectLoad": true,             /* 减少 TypeScript 自动加载的项目数量。 */
     /* 语言与环境 */
-    "target": "es2016", /* 设置 JavaScript 语言版本，以便生成兼容的库声明。 */
+    "target": "ES2023", /* 设置 JavaScript 语言版本，以便生成兼容的库声明。 */
     // "lib": [],                                        /* 指定一组捆绑的库声明文件，用于描述目标运行时环境。 */
     // "jsx": "preserve",                                /* 指定生成的 JSX 代码。 */
     "experimentalDecorators": true, /* 启用对旧版实验性装饰器的实验性支持。 */

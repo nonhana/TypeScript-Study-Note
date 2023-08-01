@@ -1,6 +1,6 @@
 /**
  * Infer关键字
- * infer是TS新增的关键字，充当占位符的作用，用于推断类型
+ * infer是TS新增的关键字，充当类型占位符的作用，用于推断类型
  */
 
 namespace Infer {

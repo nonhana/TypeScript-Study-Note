@@ -22,5 +22,6 @@ namespace PartialAndPick {
   type Pick<T, K extends keyof T> = {
     [P in K]: T[P];
   };
+  
   type q = Pick<Person, "name" | "age">;
 }
